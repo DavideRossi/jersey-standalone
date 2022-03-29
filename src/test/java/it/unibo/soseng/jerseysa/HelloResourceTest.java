@@ -12,7 +12,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class MyResourceTest {
+public class HelloResourceTest {
 
     private HttpServer server;
     private WebTarget target;
