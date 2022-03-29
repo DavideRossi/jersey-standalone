@@ -31,9 +31,6 @@ public class HelloResourceTest {
         server.shutdownNow();
     }
 
-    /**
-     * Test to see that the message "Got it!" is sent in the response.
-     */
     @Test
     public void testHello() {
         String responseMsg = target.path("hello").queryParam("name", "Davide").request().get(String.class);
